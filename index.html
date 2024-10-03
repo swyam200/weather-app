@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="weatherInfo">
+            <p class="icon"><i class="fa-solid fa-cloud-bolt"></i></p>
+            <h1 class="temp">18&deg;C</h1>
+            <h2 class="city">Delhi</h2>
+
+            <div class="details">
+                <div class="col">
+                    <span class="details-icon"><i class="fa-solid fa-water"></i></span>
+                    <div>
+                        <p class="humidity">72%</p>
+                        <p>Humidity %</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <span class="details-icon"><i class="fa-solid fa-wind"></i></span>
+                    <div>
+                        <p class="wind">72 kph</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
